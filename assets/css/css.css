@@ -6,14 +6,50 @@
     max-width: 30vh;
 }
 
+.bannerim {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    max-width: 30vh;
+}
+
+.allut {
+    background-image: url(../images/mainbg.png);
+    height: 50vh;
+}
+
+.hovera:hover {
+    background-color: rgba(0, 0, 0, 0.514)
+}
+
 .after {
     margin-top: 5vh;
     margin-bottom: 5vh;
     position: relative;
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 950px) {
     .mainimg {
         left: 50%
     } 
+    .bannerim {
+        max-width: 15vh;
+    }
+}
+
+.logo {
+    height: 45px;
+    align-self: center;
+    -webkit-filter: drop-shadow(1px 1px rgba(40, 40, 40, 0.6));
+}
+
+.cover-al {
+    width: 40%;
+}
+
+@media only screen and (max-width: 700px) {
+    .cover-al {
+        width: 70%;
+    }
 }
